@@ -1,6 +1,6 @@
 # Initialization of class variable (static member variable)
 
-Non-integral constants cannot be initialized inside the class as is recommended by /Core Guideline C.48/ "Prefer in-class initializers ..." http://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#c10-prefer-concrete-types-over-class-hierarchies .
+In the case of a `static float` member variable of a class, it seems we cannot follow CPP _Core Guideline C.48_ "Prefer in-class initializers ..." http://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#c10-prefer-concrete-types-over-class-hierarchies .
 
 This https://stackoverflow.com/a/370311/5795941 suggests that although GCC allows such initialisations, it is not required by the C++ standard.
 
