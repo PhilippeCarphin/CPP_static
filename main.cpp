@@ -5,5 +5,8 @@
 
 int main(int argc, char **argv)
 {
-    std::cout << "MyLib::f = " << MyLib::f << std::endl;
+    std::cout << "(static const)             MyLib::pi = " << MyLib::pi << std::endl;
+    MyLib my_lib;
+    std::cout << "(in-class initialized)      my_lib.e = " << my_lib.e << std::endl;
+    std::cout << "(constructor initialized) my_lib.tau = " << my_lib.tau << std::endl;
 }

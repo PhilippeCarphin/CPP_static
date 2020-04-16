@@ -2,8 +2,8 @@
 class MyLib
 {
     public:
-    static const float f;
-    float g;
+    static const float pi;
+    float tau;
     float e = 2.71828; // Note: This produces a warning if we are not using C++11.
     MyLib();
 };
